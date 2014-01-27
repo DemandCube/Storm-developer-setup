@@ -1,0 +1,4 @@
+- name: git checkout repo
+  git: repo=https://github.com/DemandCube/vagrant-centos-template.git
+        dest=/home/vagrant/vagrant-centos-template
+
