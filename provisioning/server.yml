@@ -1,6 +1,9 @@
+---
 - hosts: all
-  roles:
-    - common
-    - nginx
-    - samplegit
+	roles:
+	- common
+	- nginx
+	- samplegit
+	- nimbus
+	- supervisors
 
