@@ -1,0 +1,3 @@
+---
+- name: restart nimbus service
+  service: name=supervisord state=restart

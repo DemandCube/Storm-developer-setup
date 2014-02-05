@@ -1,0 +1,6 @@
+#The site wide list of storm servers
+[nimbus]
+ec2-67-202-62-75.compute-1.amazonaws.com
+[supervisors]
+ec2-54-204-153-202.compute-1.amazonaws.com
+ec2-54-204-215-93.compute-1.amazonaws.com

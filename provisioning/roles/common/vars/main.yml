@@ -7,3 +7,4 @@ jdk_rpm: "/vagrant/{{ jdk_filename }}"
 epel_filename: "epel-release-6-8.noarch.rpm"
 epel_rpm: "/vagrant/{{ epel_filename }}"
 maven_repo_location: "/etc/yum.repos.d/epel-apache-maven.repo"
+storm_home: /home/storm-0.9.0.1

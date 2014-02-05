@@ -1,0 +1,9 @@
+---
+
+- hosts: nimbus
+  user: root
+  tasks:
+   - name: copy the file
+     copy: src='{{jar}}' dest=/tmp/'{{jar | basename}}'
+   - name: run the jar
+     shell: "{{storm_home}}/bin/storm jar /tmp/{{jar | basename}} {{class_params}}"

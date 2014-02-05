@@ -1,0 +1,5 @@
+---
+- name: Copy the configuration file for nimbus
+  template: src=../../common/templates/storm.j2 dest={{storm_home}}/conf/storm.yaml
+  notify: restart nimbus
+
